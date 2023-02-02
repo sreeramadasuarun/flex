@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    color: rgb(51, 46, 56);
+    font-family: 'Poppins', sans-serif;
+}
+
+li a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 1rem;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin: 1rem 0px;
+}
+
+.logo {
+    margin: 0.3rem;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+    margin-top: 2rem;
+
+}
+
+.head-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+
+.person-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: center;
+}
+
+.person-intro {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.person-name {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.person-profession {
+    font-weight: 400;
+}
+
+.person-place {
+    font-weight: 400;
+
+}
+
+
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+.left-image {
+    width: 17rem;
+    border-radius: 10px;
+}
